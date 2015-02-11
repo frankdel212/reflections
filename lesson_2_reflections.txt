@@ -14,7 +14,9 @@ using git diff you can see what the changes are between the working directory an
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-branches are a cool concept.  if you have a new version of a program.
+
+branches are a cool concept.  if you have a new version of a program.  having a development branch and a production branch are a good idea.  also an expirimental branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
