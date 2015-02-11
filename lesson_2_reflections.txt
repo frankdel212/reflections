@@ -5,12 +5,16 @@ no initial commits.  creates .git file with metadata.  git doesn't start trackin
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+staging area is where you put files that will be committed in the repository.  not sure why it is needed.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+using git diff you can see what the changes are between the working directory and the staging area.  then also check the difference between the staging area and the last commit before you commit again.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+branches are a cool concept.  if you have a new version of a program.
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
