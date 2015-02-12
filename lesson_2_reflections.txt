@@ -19,8 +19,14 @@ branches are a cool concept.  if you have a new version of a program.  having a 
 
 How do the diagrams help you visualize the branch structure?
 
+i now understand what a detached head state is!
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+very cool recrsive way to merge branches.  compare with common parent.  then remove deletions and insert additions!
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+sometimes git can't automatically merge two branches.  This happens when the same lines of code are modified.  In this case, the two branches must be manually merged.  Git makes this easy by breaking the code into sections using "<<<<" and "|||||".
